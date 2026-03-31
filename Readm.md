@@ -60,7 +60,9 @@ Configurar e implementar los **Servicios de Escritorio Remoto (RDS)** en Windows
 
 
 
-  
+  <img width="2019" height="1254" alt="image" src="https://github.com/user-attachments/assets/f0f18050-7a65-45bb-a8d1-e5c612b753c1" />
+
+
   
 ### Direccionamiento IP
 
@@ -143,63 +145,75 @@ Se editó el archivo `hosts` del cliente (`C:\Windows\System32\drivers\etc\hosts
 ## 📸 Capturas de Pantalla
 
 ### 4.1 — Portal RDWeb: Pantalla de Login
-![Login RDWeb](screenshots/01_rdweb_login.png)
+
+
+
+
+
 
 **Descripción:** Pantalla de inicio de sesión del portal RDWeb desde el cliente Windows 10. Se ingresa con formato `Dominio\nombreDeUsuario`.
 
 ---
 
 ### 4.2 — Portal RDWeb: Opciones de Seguridad
-![Login opciones](screenshots/02_rdweb_login_opciones.png)
+
+<img width="808" height="612" alt="image" src="https://github.com/user-attachments/assets/c28e672d-ceb8-46e0-9f30-01692bc40096" />
 
 **Descripción:** Vista del login con opciones de equipo público o privado. URL visible: `https://192.168.106.106/RDWeb/Pages/es-ES/login.aspx`.
 
 ---
 
 ### 4.3 — Portal RDWeb: Aplicaciones Publicadas
-![Apps publicadas](screenshots/03_rdweb_apps.png)
+<img width="824" height="596" alt="image" src="https://github.com/user-attachments/assets/bca5bc60-6872-4e56-9c8e-5914bc4e83b8" />
+
+
 
 **Descripción:** Vista post-login mostrando las RemoteApps publicadas: Calculadora, iexplore, Paint y WordPad.
 
 ---
 
 ### 4.4 — Página IIS Consumida Remotamente
-![Página IIS](screenshots/04_iis_pagina_remota.png)
+<img width="826" height="958" alt="image" src="https://github.com/user-attachments/assets/2b7ae184-cd75-47e5-a4f4-1ec8b74d6eac" />
+
 
 **Descripción:** Internet Explorer abierto vía RemoteApp mostrando la página `index.html` de IIS: "Bienvenido al Portal RemoteApp".
 
 ---
 
 ### 4.5 — Archivo index.html en wwwroot
-![wwwroot](screenshots/05_servidor_wwwroot.png)
+<img width="807" height="759" alt="image" src="https://github.com/user-attachments/assets/566b05e2-93f0-4199-aaf4-ea213ce3184d" />
+
 
 **Descripción:** Explorador de archivos del servidor mostrando `index.html` en `C:\inetpub\wwwroot`.
 
 ---
 
 ### 4.6 — Administrador del Servidor: Roles Instalados
-![Server Manager](screenshots/06_server_manager.png)
+<img width="761" height="569" alt="image" src="https://github.com/user-attachments/assets/1cadfb9f-8fba-46d0-a4d8-9fe224dd8ba8" />
+
 
 **Descripción:** Panel del Administrador del Servidor con los roles AD DS, DNS, IIS, NPAS y RDS activos.
 
 ---
 
 ### 4.7 — IIS Manager
-![IIS Manager](screenshots/07_iis_manager.png)
+<img width="1062" height="766" alt="image" src="https://github.com/user-attachments/assets/74a07c25-623b-4292-a24b-0d4d00c94bd7" />
+
 
 **Descripción:** Consola IIS 10 con el sitio Default Web Site activo en `WIN-ICJ1EKEE5K0`.
 
 ---
 
 ### 4.8 — Colección QuickSessionCollection
-![Colección RDS](screenshots/08_coleccion_rds.png)
+<img width="849" height="533" alt="image" src="https://github.com/user-attachments/assets/4dbbf8c5-8703-44b3-94ea-5d15e5cce6be" />
+
 
 **Descripción:** Colección RemoteApp configurada con FQDN `WIN-ICJ1EKEE5K0.miempresa.local`.
 
 ---
 
 ### 4.9 — Servidor y Cliente en Paralelo
-![Paralelo](screenshots/09_server_cliente_paralelo.png)
+<img width="836" height="516" alt="image" src="https://github.com/user-attachments/assets/39ec7abe-4440-40de-9163-e4aad5b47800" />
 
 **Descripción:** Ambas VMs corriendo simultáneamente en Oracle VirtualBox.
 
