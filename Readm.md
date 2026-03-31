@@ -2,6 +2,13 @@
 
 > **Laboratorio de Servicios de Escritorio Remoto:** Configuración e implementación de RDP RemoteApp y Web Client en Windows Server 2019 para publicar una página web personalizada en IIS, accesible desde un cliente Windows 10 unido al dominio.
 
+Video de Youtube:
+
+https://youtu.be/UCE8yGWMMfY
+https://youtu.be/qZuegIyXp8s
+
+
+
 
 ---
 
